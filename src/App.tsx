@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import HomeView from './components/home/HomeView';
 
 function App() {
   return (
-    <div className="App">
+    <div>
      Hello World
+     <HomeView />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit'
-import reviewReducer from '../components/reviewReducer'
+import reviewReducer from '../components/review/reviewReducer'
 
 export const store = configureStore({
     reducer: {

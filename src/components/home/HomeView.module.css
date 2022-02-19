@@ -1,0 +1,12 @@
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid red;
+}
+
+.reviews > div:not(:first-child) {
+    margin-top: var(--spacing-8);
+}

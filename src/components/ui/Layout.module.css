@@ -1,0 +1,12 @@
+.wrapper {
+    /* display: flex; */
+    /* height: 100%; */
+    width: 100%;
+    /* background-color: blue; */
+    margin: 0 auto;
+    padding: var(--spacing-4);
+}
+
+.content {
+    margin-top: var(--spacing-4);
+}
