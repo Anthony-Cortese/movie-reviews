@@ -5,7 +5,6 @@ import HomeView from './components/home/HomeView';
 function App() {
   return (
     <div>
-     Hello World
      <HomeView />
     </div>
   );

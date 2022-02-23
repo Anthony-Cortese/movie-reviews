@@ -3,7 +3,12 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import { Provider } from 'react-redux'
 import { store } from '../src/redux/store'
+
+import { makeServer } from './server'
+
 import './global.css'
+
+makeServer({ environment: 'production' })
 
 ReactDOM.render(
   <React.StrictMode>

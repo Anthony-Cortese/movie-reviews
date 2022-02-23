@@ -6,7 +6,11 @@ import s from './Header.module.css'
 export default function Header() {
     return(
     <header className={s.wrapper}>
-            <h1>movie review</h1>{' '}
+            <img
+            className={s.movieimg} 
+            src='https://i.postimg.cc/tJk5BJnj/Winter-Movie-Review.png' 
+            alt='Winter-Movie-Review'
+            />
             <Button>
             <>
                         Add review

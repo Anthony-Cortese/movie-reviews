@@ -1,8 +1,6 @@
 import Spinner from '../ui/Spinner'
 import Review from '../review/Review'
-
 import { selectReviews } from '../../components/review/reviewReducer'
-
 import s from './HomeView.module.css'
 import { useAppSelector } from '../../redux/hooks'
 import  Layout  from '../ui/Layout'
