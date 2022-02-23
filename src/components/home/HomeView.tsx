@@ -11,7 +11,7 @@ export default function HomeView() {
     return (
         <div className={s.reviews}>
             <Layout children />
-            {s.reviews}
+            {/* {s.reviews} */}
             {reviews ? (
                 reviews.length !== 0 ? (
                     reviews.map(review => (

@@ -1,8 +1,17 @@
 import React from 'react';
+import { useEffect } from 'react';
 import './App.css';
 import HomeView from './components/home/HomeView';
+import { loadReviews } from './components/review/reviewReducer';
+import { useAppDispatch } from './redux/hooks';
 
-function App() {
+
+export default function App() {
+  const dispatch = useAppDispatch()
+
+  useEffect(() => {
+    dispatch(loadReviews())
+  })
   return (
     <div>
      <HomeView />
@@ -10,4 +19,3 @@ function App() {
   );
 }
 
-export default App;
