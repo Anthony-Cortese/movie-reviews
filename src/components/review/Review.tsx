@@ -9,11 +9,12 @@ interface IReview {
 }
 
 export default function Review ({
-    data: { id, title, genres, opinion}
+    data: { source, id, title, genres, opinion}
 }: IReview) {
     return ( <div className={s.wrapper}>
         <div className={s.header}>
             <div>
+                {/* <image source={source}></image> */}
                 <h1>{title}</h1>
                 <h2>{genres}</h2>
             </div>

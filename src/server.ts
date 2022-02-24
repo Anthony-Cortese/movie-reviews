@@ -12,6 +12,7 @@ export function makeServer({ environment = 'test' } = {}) {
         },
         seeds(server) {
             server.create('review', {
+                image: "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_.jpg",
                 id: uuid(),
                 title: 'Blade Runner 2049 (2017)',
                 genres: 'Sci-fi, Thriller',
