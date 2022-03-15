@@ -29,6 +29,28 @@ textarea {
     font-size: 1.6rem;
 }
 
+
+  #container {
+	height: 20vh;
+	width: 100%;
+	margin: 0px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.star-rating {
+	margin: auto auto;
+	
+}
+
+.fa {
+    color: white;
+    font-size: 20px;
+    width: 20px;
+    transition: 0.3s ease-in-out;
+}
+
 .form button {
     margin-top: var(--spacing-6);
     width: 100%;
