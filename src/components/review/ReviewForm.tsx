@@ -8,20 +8,23 @@ import s from './ReviewForm.module.css'
 
 interface IReviewForm {
     defaultValues: Review
+    onSubmit: SubmitHandler<Review>
     buttonTitle: string
 }
 
 export default function ReviewForm({
     defaultValues,
+    onSubmit,
     buttonTitle
 }: IReviewForm) {
     const {
         register,
+        handleSubmit,
         formState: { errors }
     } = useForm<Review>({ mode: 'onTouched', defaultValues })
 
     return (
-        <form className={s.form}>
+        <form onSubmit={handleSubmit(onSubmit)}className={s.form}>
             <div>
                 <label htmlFor="title">
                     Title
@@ -54,7 +57,7 @@ export default function ReviewForm({
             </div>
             <div>
                 <label htmlFor="opinion">
-                    Opinion
+                    Review
                     <textarea
                         rows={4}
                         placeholder="Your opinion"

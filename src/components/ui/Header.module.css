@@ -17,8 +17,8 @@
 }
 
 .movieimg {
-    height: 15rem;
-    width: 32rem;
+    height: 100%;
+    width: 45%;
 }
 
 /* .wrapper button svg {

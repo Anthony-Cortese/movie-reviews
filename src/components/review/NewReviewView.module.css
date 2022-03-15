@@ -6,3 +6,14 @@
 
     color: var(--gray-2);
 }
+
+.movieimg {
+    height: 15rem;
+    width: 32rem;
+}
+
+.alien {
+    height: 15rem;
+    width: 32rem;
+    /* margin-left: 20.2%;  */
+}

@@ -26,7 +26,7 @@ body,
 :root {
     /* vars */
     --navbar-width: 260px;
-
+    
     /* spacing */
     --spacing-1: 0.4rem;
     --spacing-2: 0.8rem;
@@ -48,8 +48,8 @@ body,
     /* colors */
     --gray: #c4c4c4;
     --white: #f5f5f5;
-    --background: #0e101d;
-    --red: #a81a2d;
+    --background: #202d7e;
+    --red: #df4e61;
 
     --gray-1: #f3f4f6;
     --gray-2: #e5e7eb;

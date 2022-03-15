@@ -1,3 +1,16 @@
+.edit-div {
+    width: 75%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movieimg {
+    height: 15rem;
+    width: 32rem;
+}
+
 .title {
     font-size: 2.2rem;
     font-weight: 500;
