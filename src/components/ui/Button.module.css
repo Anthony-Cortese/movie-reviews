@@ -1,21 +1,21 @@
 .default_button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    user-select: none;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
 
-    background: none;
+  background: none;
 
-    color: var(--red);
-    border: 1px solid var(--red);
-    border-radius: 0.4rem;
+  color: var(--red);
+  border: 1px solid var(--red);
+  border-radius: 0.4rem;
 
-    padding: 0 var(--spacing-2);
+  padding: 0 var(--spacing-2);
 
-    height: 30px;
+  height: 30px;
 
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 
-    letter-spacing: 0.13rem;
+  letter-spacing: 0.13rem;
 }

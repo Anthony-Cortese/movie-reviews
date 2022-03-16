@@ -1,21 +1,21 @@
-.edit-div {
-    width: 75%;
-    border: 2px solid red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.edit_div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .movieimg {
-    height: 15rem;
-    width: 32rem;
+  height: 15rem;
+  width: 32rem;
 }
 
 .title {
-    font-size: 2.2rem;
-    font-weight: 500;
+  font-size: 2.2rem;
+  font-weight: 500;
 
-    text-align: center;
+  text-align: center;
 
-    color: var(--gray-2);
+  color: var(--gray-2);
 }

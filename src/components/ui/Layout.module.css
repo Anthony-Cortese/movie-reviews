@@ -1,12 +1,12 @@
 .wrapper {
-    display: flex;
-    height: 100%;
-    width: 75%;
-    /* background-color: blue; */
-    margin: 0 auto;
-    padding: var(--spacing-4);
+  display: flex;
+  height: 100%;
+  max-width: 720px;
+  /* background-color: blue; */
+  margin: 0 auto;
+  padding: var(--spacing-4);
 }
 
 .content {
-    margin-top: var(--spacing-4);
+  margin-top: var(--spacing-4);
 }

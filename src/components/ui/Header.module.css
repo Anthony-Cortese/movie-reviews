@@ -1,24 +1,24 @@
 .wrapper {
-    padding: var(--spacing-4) 0;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  padding: var(--spacing-4) 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
-    align-items: center;
+  align-items: center;
 }
 
 .wrapper h1 {
-    font-weight: 500;
-    font-size: 2.2rem;
-    font-style: italic;
+  font-weight: 500;
+  font-size: 2.2rem;
+  font-style: italic;
 
-    user-select: none;
+  user-select: none;
 }
 
 .movieimg {
-    height: 100%;
-    width: 45%;
+  height: 100%;
+  width: 45%;
 }
 
 /* .wrapper button svg {
